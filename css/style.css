@@ -11,9 +11,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'source sans pro';
-    font-size: 1.3em;
-    color: #222222;
 }
 .calculadora{
     width: 380px;
@@ -33,6 +30,8 @@ body{
     border-radius: 9px;
     display: flex;
     flex-direction: column;
+    font-family: 'source sans pro';
+    font-size: 20px;
 }
 .numcont{
     width: 80%;
@@ -45,7 +44,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-.numcont div div{
+.numcont div button{
+    font-family: 'source sans pro';
+    font-size: 20px;
+    border: none;
     width: 25%;
     height: 70px;
     background-color: rgba(255, 255, 255, .2);
@@ -53,6 +55,6 @@ body{
     gap: 2px 2px;
     cursor: pointer;
 }
-.numcont div div:active{
+.numcont div button:active{
     background-color: rgba(255, 255, 255, .5);
 }
